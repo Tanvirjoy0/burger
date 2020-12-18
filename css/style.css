@@ -405,8 +405,9 @@ font-family: 'Bebas Neue', cursive;
  .table-book{
  	width: 100%;
  	float: left;
- 	    margin-top: 13px;
- 	        padding-bottom: 122px;
+ 	margin-top: 13px;
+ 	padding-bottom: 122px;
+	text-align: center;
  	
  }
  .des-3{
