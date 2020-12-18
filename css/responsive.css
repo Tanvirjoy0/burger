@@ -1,0 +1,52 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  header{
+    height: auto;
+  }
+
+  .navbar{
+    background: url(../img/banner.png);
+  }
+
+  .Banner {
+    margin-top: 0;
+  }
+
+  .left {
+    height: 45vh;
+  }
+
+  .img{
+    height: 45vh;
+    background: url(../img/banner.png);
+  }
+
+  .left h1{
+    font-size: 110px;
+  }
+  
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 700px){
+  
+  .left {
+    height: 35vh;
+  }
+
+  .img{
+    height: 35vh;
+    background: url(../img/banner.png);
+  }
+  
+}
